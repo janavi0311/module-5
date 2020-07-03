@@ -1,0 +1,60 @@
+
+
+
+#program to creat a tuple¶z
+t=(1,2,3,4)
+print(t)
+
+
+#creat a tuple with different data type
+t=("hii",1,2.0,"hello")
+print(t)
+
+
+
+
+#program to slice a tuple
+t="good morning"
+print(t[:5])
+
+
+
+
+#program to find the length of a tuple
+t=("i m a goood girl")
+print(len(t))
+
+
+
+#to convert a list to a tuple
+l=[1,2,3,4,5,6,7]
+print(tuple(l))
+
+
+#to convert a tuple into a string
+t=("Mom","i","love","u")
+str= " ".join(t)
+print(str)
+
+
+
+
+
+#convert a tuple to a dictionary
+name=(("amma","nanna"),("nanna","amma"))
+number=[1,2]
+t={}
+for i in range(len(number)):
+    t[name[i]]=number[i]
+for fn,ln in t:
+    print(fn,ln,t[fn,ln])
+
+
+
+
+#program to reverse a tuple
+
+t=(1,2,3,4,5,6)
+for i in range(1,7):
+    k=t[-i]
+    print(k)

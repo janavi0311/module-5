@@ -1,0 +1,74 @@
+#what is dictinary in python? Explain with an example
+# in python dictionary is an associative array any key of the dictionary is associated to a value..
+## key value is unique and the values r accesed by key....
+# dictionary will give in {}braces....
+##example:
+d={"sss":1,"ttt":2,"ppp":3,"hhh":4,"jjj":5}
+print(d)
+print(len(d))
+print(type(d))
+
+
+
+#program to sum all the items in the list
+list=[1,2,3,4,5,6,7]
+print(sum(list))
+print(list)
+
+
+
+
+#program to creat a list of empty dictionarys
+n=7
+l=[{}for i in range(n)]
+print(l)
+
+
+
+
+#program to access dictionary key elements by index
+d={"hii":1,"how":2,"r":3,"u":4}
+print(list(d)[0])
+print(list(d)[1])
+
+
+
+
+
+#summ of items in a dictionary
+d={"hii":1,"how":2,"r":3,"u":4}
+print(sum(d.values()))
+
+
+
+
+
+#iterate over dictionaries using for loop
+d={"hii":1,"how":2,"r":3,"u":4}
+for x in d:
+    print(x)
+    
+    
+    
+#program to concatinate following dictionaries to creat a new one....
+d1={1:10,2:20}
+d2={3:30,4:40}
+d3={5:50,6:60}
+d4={**d1,**d2,**d3}
+print(d4)
+
+
+
+
+# in python dictionary is an associative array any key of the dictionary is associated to a value..
+## key value is unique and the values r accesed by key....
+# in python dictionary is an associative array any key of the dictionary is associated to a value..
+## key value is unique and the values r accesed by key....
+# in python dictionary is an associative array any key of the dictionary is associated to a value..
+## key value is unique and the values r accesed by key....
+# in python dictionary is an associative array any key of the dictionary is associated to a value..
+## key value is unique and the values r accesed by key....
+d1={"apple":1,"banana":2,"saberry":3}
+print(type(d1))
+print(len(d1))
+print(d1)
